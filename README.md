@@ -1,4 +1,4 @@
-# Proyecto Integrador: API CRUD con Express y MongoDB 🖥️
+# Repaso Examen: API CRUD con Express y MongoDB 🖥️
 
 ## Descripción del Proyecto 📋
 

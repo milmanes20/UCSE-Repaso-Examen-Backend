@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.15.2"
+  },
+  "name": "ucse-repaso-examen-backend",
+  "version": "1.0.0",
+  "description": "En este proyecto, desarrollarás una API RESTful utilizando **Express** y **MongoDB** que permitirá realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) sobre una colección de productos electrónicos. La aplicación tomará como base el archivo `electronicos.json`, que contiene detalles de productos electrónicos, como su nombre, precio y categorías. Tu objetivo es modelar y manipular esta información mediante una API que siga las prácticas de desarrollo vistas en clase.",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milmanes20/UCSE-Repaso-Examen-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milmanes20/UCSE-Repaso-Examen-Backend/issues"
+  },
+  "homepage": "https://github.com/milmanes20/UCSE-Repaso-Examen-Backend#readme"
+}

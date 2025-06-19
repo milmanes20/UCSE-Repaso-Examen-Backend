@@ -89,3 +89,31 @@ El archivo `electronicos.json` incluye propiedades de cada producto. Deberás cr
 ## Conclusión 🎉
 
 Este proyecto te permitirá aplicar los conceptos clave de desarrollo backend con Express y Mongoose, además de gestionar datos en MongoDB. ¡Recuerda mantener tu código organizado y bien documentado!
+
+## Endpoints
+
+### 1. Obtener todos los productos
+**Método:** `GET`  
+**Ruta:** `/api/productos`  
+**Descripción:** Devuelve una lista de todos los productos disponibles.
+**Posibles respuestas:**
+```json
+[
+  {
+    "codigo": 1,
+    "nombre": "Producto 1",
+    "precio": 100,
+    "categorias": ["Categoria1", "Categoria2"]
+  },
+  {
+    "codigo": 2,
+    "nombre": "Producto 2",
+    "precio": 200,
+    "categorias": ["Categoria3"]
+  }
+]
+
+**Códigos de estado:**
+
+200 OK: Productos obtenidos correctamente.
+500 Internal Server Error: Error interno del servidor.

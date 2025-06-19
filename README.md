@@ -118,7 +118,7 @@ Este proyecto te permitirá aplicar los conceptos clave de desarrollo backend co
 200 OK: Productos obtenidos correctamente.
 500 Internal Server Error: Error interno del servidor.
 
-2. **Obtener un producto por código**
+## 2.Obtener un producto por código
 **Método:** GET
 **Ruta:** /api/productos/:codigo
 **Descripción:** Devuelve un producto específico según su código.
@@ -126,6 +126,7 @@ Este proyecto te permitirá aplicar los conceptos clave de desarrollo backend co
 **Parámetros:**
 
 :codigo (path param): Código único del producto.
+
 **Posibles respuestas:**
 ``` json
 {

@@ -111,9 +111,32 @@ Este proyecto te permitirá aplicar los conceptos clave de desarrollo backend co
     "precio": 200,
     "categorias": ["Categoria3"]
   }
-]
-
+] 
+```
 **Códigos de estado:**
 
 200 OK: Productos obtenidos correctamente.
+500 Internal Server Error: Error interno del servidor.
+
+2. **Obtener un producto por código**
+**Método:** GET
+**Ruta:** /api/productos/:codigo
+**Descripción:** Devuelve un producto específico según su código.
+
+**Parámetros:**
+
+:codigo (path param): Código único del producto.
+**Posibles respuestas:**
+``` json
+{
+  "codigo": 7,
+  "nombre": "Producto 7",
+  "precio": 150,
+  "categorias": ["Categoria1", "Categoria3"]
+}
+```
+**Códigos de estado:**
+
+200 OK: Producto encontrado.
+404 Not Found: Producto no encontrado.
 500 Internal Server Error: Error interno del servidor.
